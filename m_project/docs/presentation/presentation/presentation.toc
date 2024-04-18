@@ -1,0 +1,15 @@
+\beamer@sectionintoc {1}{OUTLINE}{2}{0}{1}
+\beamer@sectionintoc {2}{INTRODUCTION}{3}{0}{2}
+\beamer@sectionintoc {3}{PROBLEM DEFINITION}{4}{0}{3}
+\beamer@sectionintoc {4}{LITERATURE SURVEY}{5}{0}{4}
+\beamer@sectionintoc {5}{REQUIREMENT SPECIFICATION}{6}{0}{5}
+\beamer@sectionintoc {6}{PROPOSED SYSTEM AND DESIGN}{7}{0}{6}
+\beamer@sectionintoc {7}{FEASIBILITY STUDY}{8}{0}{7}
+\beamer@sectionintoc {8}{DESIGN}{9}{0}{8}
+\beamer@sectionintoc {9}{ARCHITECTURE DIAGRAM}{10}{0}{9}
+\beamer@sectionintoc {10}{USE CASE DIAGRAM *}{11}{0}{10}
+\beamer@sectionintoc {11}{DATA FLOW DIAGRAM *}{12}{0}{11}
+\beamer@sectionintoc {12}{ER DIAGRAM *}{13}{0}{12}
+\beamer@sectionintoc {13}{GANTT CHART}{14}{0}{13}
+\beamer@sectionintoc {14}{CONCLUSION }{15}{0}{14}
+\beamer@sectionintoc {15}{REFERENCES }{16}{0}{15}

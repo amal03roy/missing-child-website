@@ -1,0 +1,138 @@
+\documentclass[svgnames,9pt]{beamer}
+%\usepackage[latin1]{inputenc}
+\usetheme{Warsaw}
+\setbeamertemplate{headline}{}
+\setbeamerfont{footline}{size=\fontsize{6}{8}\selectfont}
+\makeatletter
+\expandafter\def\expandafter\insertshorttitle\expandafter{%
+	\insertshorttitle\hfill%
+	\insertframenumber\,/\,\inserttotalframenumber}
+\setbeamertemplate{frametitle}
+{%
+	
+	\nointerlineskip%
+	\vskip-2pt%
+	\hbox{\leavevmode
+		\advance\beamer@leftmargin by -12bp%
+		\advance\beamer@rightmargin by -12bp%
+		\beamer@tempdim=\textwidth%
+		\advance\beamer@tempdim by \beamer@leftmargin%
+		\advance\beamer@tempdim by \beamer@rightmargin%
+		\hskip-\Gm@lmargin\hbox{%
+			\setbox\beamer@tempbox=\hbox{\begin{minipage}[b]{\paperwidth}%
+					\vbox{}\vskip.50ex% NEW: original \vskip-.75ex
+					\leftskip0.3cm%
+					\rightskip0.3cm plus1fil\leavevmode
+					\insertframetitle%
+					\ifx\insertframesubtitle\@empty%
+					\strut\par%
+					\else
+					\par{\usebeamerfont*{framesubtitle}{\usebeamercolor[fg]{framesubtitle}\insertframesubtitle}\strut\par\vskip2ex}% NEW: added \vskip2ex
+					\fi%
+					\nointerlineskip
+					\vbox{}%
+			\end{minipage}}%
+			\beamer@tempdim=\ht\beamer@tempbox%
+			\advance\beamer@tempdim by 2pt%
+			\begin{pgfpicture}{0pt}{0pt}{\paperwidth}{\beamer@tempdim}
+				\usebeamercolor{frametitle right}
+				\pgfpathrectangle{\pgfpointorigin}{\pgfpoint{\paperwidth}{\beamer@tempdim}}
+				\pgfusepath{clip}
+				\pgftext[left,base]{\pgfuseshading{beamer@frametitleshade}}
+			\end{pgfpicture}
+			\hskip-\paperwidth%
+			\box\beamer@tempbox%
+		}%
+		\hskip-\Gm@rmargin%
+	}%
+	\nointerlineskip
+	\vskip-0.2pt
+	\hbox to\textwidth{\hskip-\Gm@lmargin\pgfuseshading{beamer@topshade}\hskip-\Gm@rmargin}
+	\vskip-2pt
+}
+\makeatother
+\addtobeamertemplate{frametitle}{\vspace*{0.5cm}}{\vspace*{0.5cm}}
+
+\title[ShortTitle]{\huge \textbf{Project Title}} %Project title
+\author[Group1]{}
+
+\date{}
+
+\begin{document}
+	\begin{frame}
+		
+		\begin{figure}[h!]
+			\includegraphics[scale=0.25]{img/vjec}
+		\end{figure}
+		
+		\begin{center}      
+			\begin{minipage}[b]{1.0\textwidth}
+				\centering
+				Department of Computer Science and Engineering\\
+				Vimal Jyothi Engineering College\\ Chemperi
+			\end{minipage}%
+		\end{center}
+		
+		\titlepage
+		
+		\begin{minipage}[t]{0.5\textwidth}
+			\vspace{-2cm}
+			\begin{flushleft}
+				{ \textit{MEMBERS}:\vspace*{0.1cm} \\STUDENT 1 (VML19CS005)\\STUDENT 2 (VML19CS005)\\STUDENT 3 (VML19CS005)\\STUDENT 4 (VML19CS005) } %students name
+			\end{flushleft}
+		\end{minipage}%
+		%
+		\begin{minipage}[t]{0.5\textwidth}
+			\vspace{-2cm}
+			\begin{flushright}
+				{\textit{GUIDE}:\vspace*{0.1cm} \\ Mr.Guide} %supervisor name
+			\end{flushright}    
+		\end{minipage}%
+	\end{frame}
+\section{OUTLINE}
+\begin{frame}{OUTLINE}
+	\tableofcontents
+\end{frame}
+\section{INTRODUCTION}
+\begin{frame}{INTRODUCTION}
+\end{frame}
+\section{PROBLEM DEFINITION}
+\begin{frame}{PROBLEM DEFINITION}
+\end{frame}
+\section{LITERATURE SURVEY}
+\begin{frame}{LITERATURE SURVEY}
+\end{frame}
+\section{REQUIREMENT SPECIFICATION}
+\begin{frame}{REQUIREMENT SPECIFICATION}
+\end{frame}
+\section{PROPOSED SYSTEM AND DESIGN}
+\begin{frame}{PROPOSED SYSTEM AND DESIGN}
+\end{frame}
+\section{FEASIBILITY STUDY}
+\begin{frame}{FEASIBILITY STUDY}
+\end{frame}
+\section{DESIGN}
+\begin{frame}{DESIGN}
+\end{frame}
+\section{ARCHITECTURE DIAGRAM}
+\begin{frame}{ARCHITECTURE DIAGRAM}	
+\end{frame}
+\section{USE CASE DIAGRAM *}
+\begin{frame}{USE CASE DIAGRAM *}	
+\end{frame}
+\section{DATA FLOW DIAGRAM *}
+\begin{frame}{DATA FLOW DIAGRAM *}	
+\end{frame}
+\section{ER DIAGRAM *}
+\begin{frame}{ER DIAGRAM *}	
+\end{frame}
+\section{GANTT CHART}
+\begin{frame}{GANTT CHART}	
+\end{frame}
+\section{CONCLUSION }
+\begin{frame}{CONCLUSION }	
+\end{frame}
+\section{REFERENCES }
+\begin{frame}{REFERENCES }
+\end{frame}
+\end{document}
