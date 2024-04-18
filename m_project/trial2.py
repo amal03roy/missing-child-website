@@ -2,12 +2,12 @@ import os
 import face_recognition
 
 # Load the target image
-target_image_path = "target_image.jpg"
+target_image_path = "m.jpg"
 target_image = face_recognition.load_image_file(target_image_path)
 target_encoding = face_recognition.face_encodings(target_image)[0]
 
 # Directory containing the images to compare against
-compare_dir = "directory_path_containing_images"
+compare_dir = "test"
 for filename in os.listdir(compare_dir):
     if filename.endswith(".jpg") or filename.endswith(".png"):
         # Load image
